@@ -22,9 +22,11 @@ public class Run {
 		//exArr.exercise2();
 		// -> exArr : 프로그램이 저장된 클래스를 변수에 저장했기 때문에 변수명으로 접근
 		// -> exercise2() : 접근한 클래스에 저장된 프로그램의 메소드를 호출해 사용
+		exArr.lottoExercise();
 		
 		Exercise_For exFor = new Exercise_For();
 		//exFor.forDoubleExercise1();
-		exArr.arryCopyExercise();
+		//exArr.arryCopyExercise();
+		
 	}
 }
