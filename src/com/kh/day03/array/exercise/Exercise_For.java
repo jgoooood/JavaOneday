@@ -153,114 +153,110 @@ public class Exercise_For {
 		//}
 	}
 	public void loopExercise() {
-		// 반복문_실습문제_01
+		// =======================반복문_실습문제_01=======================
 		
 		//1번
 		//사용자로부터 한 개의 값을 입력 받아 1부터 그 숫자까지의 숫자들을 모두 출력하세요.
 		//단, 입력한 수는 1보다 크거나 같아야 합니다.
 		//만일 1 미만의 숫자가 입력됐다면 “1 이상의 숫자를 입력해주세요“를 출력하세요.
-		Scanner sc = new Scanner(System.in);
-		System.out.print("숫자를 입력해주세요 : ");
-		int input = sc.nextInt();
-		int numbers = 0;
-		
-		if(input < 1) {
-			System.out.println("1 이상의 숫자를 입력해주세요.");
-		} else {
-			for(int i = 1; i <= input; i++) {
-				numbers = i;
-				System.out.println(numbers);
-			}			
-		}
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("숫자를 입력해주세요 : ");
+//		int input = sc.nextInt();
+//		int numbers = 0;
+//		
+//		if(input < 1) {
+//			System.out.println("1 이상의 숫자를 입력해주세요.");
+//		} else {
+//			for(int i = 1; i <= input; i++) {
+//				numbers = i;
+//				System.out.println(numbers);
+//			}			
+//		}
 		//2번
 		//사용자로부터 한 개의 값을 입력 받아 1부터 그 숫자까지의 모든 숫자를 거꾸로 출력하세요.
 		//단, 입력한 수는 1보다 크거나 같아야 합니다.
-		Scanner sc = new Scanner(System.in);
-		System.out.print("숫자를 입력하세요 : ");
-		int input = sc.nextInt();
-		int numbers = 0;
-		if(input < 1) {
-			System.out.println("1 이상의 숫자를 입력해주세요.");
-		} else {
-			for(int i = input; i >= 1; i--) {
-				numbers = i;
-				System.out.println(numbers);
-			}			
-		}
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("숫자를 입력하세요 : ");
+//		int input = sc.nextInt();
+//		int numbers = 0;
+//		if(input < 1) {
+//			System.out.println("1 이상의 숫자를 입력해주세요.");
+//		} else {
+//			for(int i = input; i >= 1; i--) {
+//				numbers = i;
+//				System.out.println(numbers);
+//			}			
+//		}
 		//3번
 		//1부터 사용자에게 입력 받은 수까지의 정수들의 합을 for문을 이용하여 출력하세요.    
-		Scanner sc = new Scanner(System.in);
-		System.out.print("숫자를 입력하세요 : ");
-		int input = sc.nextInt();
-		int sum = 0;
-		for(int i = 1; i <= input; i++) {
-			sum += i;
-			if (i != input) {
-				System.out.print(i + " + ");					
-			} else {
-				System.out.print(i + " = ");
-			}
-		}
-		System.out.println(sum);
-		
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("숫자를 입력하세요 : ");
+//		int input = sc.nextInt();
+//		int sum = 0;
+//		for(int i = 1; i <= input; i++) {
+//			sum += i;
+//			if (i != input) {
+//				System.out.print(i + " + ");					
+//			} else {
+//				System.out.print(i + " = ");
+//			}
+//		}
+//		System.out.println(sum);
+//		
 		//4번  
 		//사용자로부터 두 개의 값을 입력 받아 그 사이의 숫자를 모두 출력하세요.
 		//만일 1 미만의 숫자가 입력됐다면 “1 이상의 숫자를 입력해주세요“를 출력하세요.
 		
-		Scanner sc = new Scanner(System.in);
-		System.out.print("숫자 두 개를 입력하세요.");
-		int num1 = sc.nextInt();
-		int num2 = sc.nextInt();
-		int sum = 0;
-		if (num1 >= 1 && num2 >= 1) {
-			if (num1 < num2) {
-				for(int i = num1; i <= num2; i++) {
-					sum = i;
-					System.out.println(sum);
-				}							
-			} else if (num1 > num2) {
-				for(int i = num2; i <= num1; i++) {
-					sum = i;
-					System.out.println(sum);
-				}	
-			} else {
-				System.out.println(num1);
-				System.out.println("동일한 숫자 2개를 입력하셨습니다.");
-			}
-		} else {
-			System.out.println("1 이상의 숫자를 입력해주세요.");
-		}
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("숫자 두 개를 입력하세요.");
+//		int num1 = sc.nextInt();
+//		int num2 = sc.nextInt();
+//		int sum = 0;
+//		if (num1 >= 1 && num2 >= 1) {
+//			if (num1 < num2) {
+//				for(int i = num1; i <= num2; i++) {
+//					sum = i;
+//					System.out.println(sum);
+//				}							
+//			} else if (num1 > num2) {
+//				for(int i = num2; i <= num1; i++) {
+//					sum = i;
+//					System.out.println(sum);
+//				}	
+//			} else {
+//				System.out.println(num1);
+//				System.out.println("동일한 숫자 2개를 입력하셨습니다.");
+//			}
+//		} else {
+//			System.out.println("1 이상의 숫자를 입력해주세요.");
+//		}
 		//5번
 		// 사용자로부터 입력 받은 숫자의 단을 출력하세요.
-		Scanner sc = new Scanner(System.in);
-		System.out.println("숫자를 입력해주세요.");
-		int dan = sc.nextInt();
-		for(int i = 1; i <= 9; i++) {
-			System.out.println(dan + " * " + i + " = " + dan*i);
-		}
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("숫자를 입력해주세요.");
+//		int dan = sc.nextInt();
+//		for(int i = 1; i <= 9; i++) {
+//			System.out.println(dan + " * " + i + " = " + dan*i);
+//		}
 		//6번  
 		//사용자로부터 입력 받은 숫자의 단부터 9단까지 출력하세요.
 		//단, 9를 초과하는 숫자가 들어오면 “9 이하의 숫자만 입력해주세요”를 출력하세요.
-		Scanner sc = new Scanner(System.in);
-		System.out.println("숫자를 입력해주세요 : ");
-		int dan = sc.nextInt();
-		int dans = dan;
-		if(dan > 9) {
-			System.out.println("9 이하의 숫자만 입력해주세요.");
-		} else {
-			for(int i = dan; i <= 9; i++) {
-				for(int j = 1; j <=9; j++) {
-					System.out.println(dans + " * " + j + " = " + dans*j);
-				}
-				dans++;
-				System.out.println(" ");
-			}			
-		}
-	}
-	
-
-	public static void main (String[] args) {
-		//가위바위보 게임
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("숫자를 입력해주세요 : ");
+//		int dan = sc.nextInt();
+//		int dans = dan;
+//		if(dan > 9) {
+//			System.out.println("9 이하의 숫자만 입력해주세요.");
+//		} else {
+//			for(int i = dan; i <= 9; i++) {
+//				for(int j = 1; j <=9; j++) {
+//					System.out.println(dans + " * " + j + " = " + dans*j);
+//				}
+//				dans++;
+//				System.out.println(" ");
+//			}			
+//		}
+		//=======================가위바위보 게임=======================
 		Random rand = new Random();
 		int computer = rand.nextInt(3)+1;
 		Scanner sc = new Scanner(System.in);
@@ -285,7 +281,7 @@ public class Exercise_For {
 		} else {
 			System.out.println("컴퓨터는 보를 냈습니다.");
 		}
-
+		
 		System.out.println("======================");
 		
 		if (choice < computer) {
@@ -295,7 +291,69 @@ public class Exercise_For {
 		} else {
 			System.out.println("당신은 비겼습니다.");
 		}
+	}
+	
 
+	public static void main (String[] args) {
+		// =======================반복문_실습문제_02=======================
+
+	    // 1번
+	    // 1부터 사용자에게 입력 받은 수까지 중에서
+	    // 1) 2와 3의 배수를 모두 출력하고
+	    // 2) 2와 3의 공배수의 개수를 출력하세요.
+		Scanner sc = new Scanner(System.in);
+		System.out.print("숫자를 입력해주세요 : ");
+		int input = sc.nextInt();
+		for(int i = 1; i <= input; i++) {
+			
+		}
+		
+	    // 2번
+	    /*
+	     * 다음과 같은 실행 예제를 구현하세요.
+	     *
+	     * ex. 정수 입력 : 3
+	     *
+	     **
+	     ***
+	     **
+	     *
+	     */
+
+	    // 3번
+	    /*
+	     * 다음과 같은 실행 예제를 구현하세요.
+	     *
+	     * ex. 정수 입력 : 4
+	     *
+	     ***
+	     *****
+	     *******
+	     */
+
+	    // 4번
+	    /*
+	     * 다음과 같은 실행 예제를 구현하세요.
+	     *
+	     * ex. 정수 입력 : 5
+	     *****
+	     *     *
+	     *     *
+	     *     *
+	     *****
+	     */
+
+	    // 5번
+	    // 사용자로부터 입력 받은 하나의 값이 소수인지 판별하는 프로그램을 구현하세요.
+	    // 단, 입력한 수가 2보다 작은 경우 “잘못 입력하셨습니다.”를 출력하세요.
+
+	    // 6번
+	    // 위 문제와 모든 것이 동일하나, 입력한 수가 2보다 작은 경우
+	    // “잘못 입력하셨습니다.”를 출력하면서 다시 사용자가 값을 입력하도록 하세요.
+
+	    // 7번
+	    // 2부터 사용자가 입력한 수까지의 소수를 모두 출력하고 소수의 개수를 출력하세요.
+	    // 단, 입력한 수가 2보다 작은 경우 “잘못 입력하셨습니다.”를 출력하세요.
 	}
 }
 	
