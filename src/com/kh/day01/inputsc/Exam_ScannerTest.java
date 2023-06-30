@@ -43,12 +43,5 @@ public class Exam_ScannerTest {
 		//한번에 띄어쓰기로 입력받아 한줄로 출력
 		System.out.println("이름은 " + name +", 도시는 " + city + ", 나이는 " + age + "살, 체중은 " + weight + "kg, 싱글여부는 " + singleYN + "입니다.");
 		
-		
-	
-		
-		
-		
-		
-		
 	}
 }

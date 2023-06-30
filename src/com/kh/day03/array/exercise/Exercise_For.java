@@ -304,14 +304,35 @@ public class Exercise_For {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("숫자를 입력해주세요 : ");
 		int input = sc.nextInt();
-		int count = 1;
-		int three = 0;
+		
 		System.out.print("2의 배수 : ");
 		for(int i = 1; i <= input; i++) {
 			if(i % 2 == 0) {
 				System.out.print(i+ " ");
 			}
 		}
+		
+//		System.out.print("2의 배수 : ");
+//		for(int i = 1; i <= input; i++) {
+//			if(i % 2 == 0) {
+//				System.out.print(i+ " ");
+//			}
+//		}
+//		System.out.println();
+//		System.out.print("3의 배수 : ");
+//		for(int i = 1; i <= input; i++) {
+//			if(i % 3 == 0) {
+//				System.out.print(i+ " ");
+//			}
+//		}
+//		System.out.println();
+//		System.out.print("2와 3의 공배수의 개수 : ");
+//		int count = 0;
+//		for(int i = 1; i <= input; i++) {
+//			if(i % (2*3) == 0) {
+//				count++;
+//			}
+//		} System.out.println(count);
 			
 		
 	    // 2번
