@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import com.kh.day17.oop.motel.domain.vo.Room;
 
+//rList에 관한 것
 public class MotelController {
 
 //	List<Room> rList;
